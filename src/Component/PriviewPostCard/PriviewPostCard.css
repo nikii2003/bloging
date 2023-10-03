@@ -27,6 +27,7 @@ justify-content: space-around;
     height: fit-content;
     margin: 16px;
     border-radius: 5px;
+   
 }
 .title-button{
     display: flex;
@@ -50,4 +51,7 @@ justify-content: space-around;
 }
 .btn-text:hover{
     color: aliceblue;
+}
+.img-sm{
+    height: 60px;
 }

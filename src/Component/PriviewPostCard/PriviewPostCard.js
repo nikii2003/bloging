@@ -10,7 +10,7 @@ function PriviewPostCard({ id, blogTitle, blogdata, blogContent, follower, Artic
             <div className='blog-flex'>
                 <div> <p>{blogdata}</p>
                     <p>{blogContent}</p></div>
-                <div className='img-rss'><img src={urlimage} alt='rss feed' /></div>
+                <div className='img-rss'><img src={urlimage} alt='rss feed' className='img-sm' /></div>
             </div>
             <div className='reviews'>
                 <p>{follower}</p>

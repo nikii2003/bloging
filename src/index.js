@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Home from './Views/Home/Home';
 import Readpost from './Views/Readpost/Readpost';
 import Posts from './Views/Posts/Posts';
+import "./index.css"
 import {  RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,6 +27,9 @@ const router = createBrowserRouter([
 ])
 
 root.render(
-<RouterProvider router={router}/>
+
+<RouterProvider router={router} />
+
+
 );
 
