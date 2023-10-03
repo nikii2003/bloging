@@ -1,0 +1,53 @@
+.priview-post-card{
+border: 0.5px solid rgba(211, 205, 205, 0.774);
+width: 600px;
+padding: 10px;
+margin: 20px;
+padding-bottom: 20px;
+border-radius: 5px; 
+display: block;
+margin-left: auto;
+margin-right: auto;
+cursor: pointer;
+}
+.priview-post-card:hover{
+    background-color:#d9d9d9;
+  transition: 1s;
+}
+.reviews{
+display: flex;
+justify-content: space-around;
+}
+.blog-flex{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.img-rss{
+    border:0.5px solid rgba(211, 205, 205, 0.774);
+    height: fit-content;
+    margin: 16px;
+    border-radius: 5px;
+}
+.title-button{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-read-now{
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 1px;
+    border: 0.5px solid rgba(211, 205, 205, 0.774);
+    
+}
+.btn-read-now:hover{
+    background-color: rgb(40, 187, 40);
+    color: aliceblue;
+}
+.btn-text{
+    text-decoration: none;
+   
+}
+.btn-text:hover{
+    color: aliceblue;
+}

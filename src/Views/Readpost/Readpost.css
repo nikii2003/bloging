@@ -1,0 +1,12 @@
+.rss-feed-img{
+    height: 300px;
+    display: block;
+    margin: 10px auto;
+}
+.blog-content{
+    border: 0.05px solid rgb(185, 181, 181);
+   margin-left: 20px;
+   margin-right: 30px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
