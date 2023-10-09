@@ -1,3 +1,8 @@
 .heading{
     text-align: center;
 }
+.preview-post-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

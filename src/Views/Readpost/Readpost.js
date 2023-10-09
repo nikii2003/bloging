@@ -23,6 +23,9 @@ function Readpost() {
       <p>{post.blogContent}</p>
       <p>{post.Articalperweek}</p>
       <p className=''>{post.revelence}.....</p>
+      <h2>{post.latestTitle}</h2>
+      <p>{post.latest}</p>
+
       </div>
     </div>
   )
